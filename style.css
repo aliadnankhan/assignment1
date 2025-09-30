@@ -1,0 +1,39 @@
+.menuimage {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 6px 8px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7b3a3a;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: rgb(181, 179, 179);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #632a2a;
+}
+
+body { 
+    background-color: #7b3a3a;
+}
+
+h1 {
+    text-align: center;
+}
