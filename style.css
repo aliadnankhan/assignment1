@@ -11,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #7b3a3a;
+  background-color: #121212;
 }
 
 ul li {
@@ -19,21 +19,45 @@ ul li {
 }
 
 ul li a {
-  display: block;
-  color: rgb(181, 179, 179);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: #e0e0e0;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
 }
 
 ul li a:hover {
-  background-color: #632a2a;
+  background-color: #2a2a2a;
 }
 
 body { 
-    background-color: #7b3a3a;
+    background-color: #121212;
 }
 
-h1 {
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e0e0e0;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+#banner h1 {
+    margin: 0;
+}
+
+#pagetitle {
+    color: #e0e0e0;
+}
+
+#footer {
     text-align: center;
+    color: #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #2c2c2c;
 }
