@@ -11,7 +11,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #121212;
 }
 
 ul li {
@@ -26,12 +25,12 @@ ul li a {
     padding: 15px;
 }
 
-ul li a:hover {
-  background-color: #2a2a2a;
-}
-
 body { 
-    background-color: #121212;
+    background: yellow; 
+    background: -moz-linear-gradient(left, red 0%, yellow 100%); 
+    background: -webkit-linear-gradient(left, red 0%, yellow 100%); 
+    background: -o-linear-gradient(left, red 0%, yellow 100%); 
+    background: linear-gradient(to right, red 0%,yellow 100%);
 }
 
 #banner {
@@ -39,7 +38,6 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #e0e0e0;
-    border-bottom: 1px solid #2c2c2c;
 }
 
 #banner h1 {
@@ -52,16 +50,15 @@ body {
 
 #textsection {
     color: #e0e0e0;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 #projects {
     color: #e0e0e0;
 
+}
+
+#form {
+    color: #e0e0e0;
 }
 
 #footer {
@@ -73,5 +70,13 @@ body {
     width: 100%;
     text-align: center;
     padding: 15px;
-    border-top: 1px solid #2c2c2c;
+}
+
+#copyright {
+    text-align: left;
+    color: #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
